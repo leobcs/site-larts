@@ -26,7 +26,7 @@
 .intro {
   &__title {
     font-size: 50px;
-    max-width: 315px;
+    max-width: 365px;
     line-height: 1.150;
     margin-bottom: 28px;
     margin-top: 16px;
@@ -43,12 +43,26 @@
   margin-left: 95px;
 }
 
+
 #icons-servicos{
   margin-left: 95px;
 }
 
 #services-title{
   max-width: 455px;
+}
+
+#cta-footer{
+  padding-bottom: 30px;
+}
+@media (max-width:1200px){
+  #sobre-nos{
+    margin-left: 0px;
+  }
+  #icons-servicos{
+    margin-left: 0px;
+    margin-top: 50px;
+  }
 }
 
 
@@ -172,6 +186,11 @@
   }
 }
 
+#info-about{
+  margin-top: 0px;
+  margin-left: 0px;
+  padding: 20px 10px;
+}
 
 /* Benefit
 -------------------------------------------------------*/
